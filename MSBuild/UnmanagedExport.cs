@@ -49,6 +49,7 @@ namespace HuajiTech.UnmanagedExports
             using var cache = new MemoryStream();
 
             fileStream.CopyTo(cache);
+            fileStream.Position = 0;
 
             var module = ModuleDefMD.Load(cache);
 
