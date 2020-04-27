@@ -87,7 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Metadata\Metadata.csproj">
-      <Project>{ceaed438-8b32-480f-be5e-3fa3e45f9dd0}</Project>
+      <Project>{bcaddacc-23b7-47e2-ba23-6d1d82e3eec6}</Project>
       <Name>Metadata</Name>
     </ProjectReference>
   </ItemGroup>
